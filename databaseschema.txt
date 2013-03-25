@@ -1,2 +1,32 @@
 Database Schema
 
+Collections:
+
+active
+pending
+archive
+
+{
+	_id: "institutional ID",
+	pi: { firstname: "fName", lastname: "lName"},
+	projectNumber: XXXXXXXX,
+	sponsorID: "SponsorID",
+	startDate: XXXX-XX-XX,
+	endDate: XXXX-XX-XX,
+	title: "Title of project",
+	annualDC: { py1: XXXX, py2: XXXX, py3: XXXX, py4: XXXX, py5: XXXX },
+	totalDC: XXXX,
+	personnel: [
+					{
+						name: { firstName: "fName", lastName: "lName"},
+						effort: { py1: XX, py2: XX, py3: XX, py4: XX, py5: XX},
+						monthsCalc: "Cal/Acd/etc."
+					},
+					{
+						name: { firstName: "fName", lastName: "lName"},
+						effort: { py1: XX, py2: XX, py3: XX, py4: XX, py5: XX},
+						monthsCalc: "Cal/Acd/etc."
+					},
+				],
+	majorGoals: "A whole budget of text about the major goals..."
+},
