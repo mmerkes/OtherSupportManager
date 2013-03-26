@@ -28,5 +28,7 @@ archive
 						monthsCalc: "Cal/Acd/etc."
 					},
 				],
-	majorGoals: "A whole budget of text about the major goals..."
+	majorGoals: "A whole budget of text about the major goals...",
+	overlap: "Possibly some text in here",
+	associated_ids: "some _id somewhere"
 },
